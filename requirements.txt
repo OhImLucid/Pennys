@@ -1,0 +1,14 @@
+# Python Dependencies for Penetration Testing Automation Tool
+# Install with: pip3 install -r requirements.txt
+
+# Note: This tool is designed for Kali Linux which comes with most
+# penetration testing tools pre-installed. These are just Python dependencies.
+
+# Core Python packages (usually pre-installed on Kali)
+# No additional Python packages required for basic functionality
+
+# The tool relies on system tools that should be installed via apt:
+# sudo apt install -y nmap nikto gobuster whatweb sslscan dnsutils whois
+
+# Optional: For enhanced functionality
+# python-nmap>=0.7.1  # Python wrapper for Nmap (optional)
